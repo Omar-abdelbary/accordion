@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(173,103,233);
+    height: 750px;
+}
+
+.accordion {
+    margin-top: 100px !important;
+    width: 80%;
+    height: auto;
+    margin: auto ;
+    background-color: rgb(255,255,255);
+    border-radius: 15px;
+
+}
+
+.accordion .img-position {
+    position: relative;
+}
+
+
+.accordion img {
+    margin-left: -15px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.accordion .img-2 {
+    position: absolute;
+    left: -35px;
+    top: 158px;
+    width: 35%;
+    height: auto;
+}
+
+.accordion h1 {
+    font-size: 35px;
+    color: blueviolet;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.accordion .accordion-content {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+
+
+.accordion .accordion-content .accordion-header {
+    cursor: pointer;
+    /* background-color: rgb(40,148,177); */
+    background-color: rgb(104,98,230);
+    padding: 5px;
+    transition: 1s;
+}
+
+.accordion .accordion-content .accordion-header:hover h4 {
+    color: #fff ;
+}
+
+.accordion .accordion-content .accordion-header:hover i {
+    color: #fff ;
+}
+
+.accordion .accordion-content .accordion-header h4  {
+    font-size: 17px;
+    color: black;
+
+}
+
+.accordion .accordion-content .accordion-header i {
+    font-size: 14px;
+    color: #000;
+
+}
+.accordion .accordion-content .accordion-content-2 {
+    background-color: rgb(245,248,253);
+    padding: 8px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    
+}
+
+
+
+/*  =================================================== end accordion ======================================== */
+
+.end-content {
+    /* background-color: red; */
+    margin-top: 15px;
+}
+
+.end-content h3 {
+    font-size: 15px;
+    color: #fff;
+
+}
+
+.end-content h4 {
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.end-content h4 a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.end-content h4 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media (max-width :750px) {
+
+    body {
+        height: 1155px;
+    }
+    .accordion {
+        width: 100%;
+    }
+
+    .accordion img {
+        margin-left: 0px;
+    }
+
+    .accordion .img-2 {
+        position: absolute;
+        left: -25px;
+        top: 110px;
+        width: 40%;
+        height: auto;
+    }
+
+    .accordion h1 {
+        font-size: 35px;
+        color: blueviolet;
+        margin-top: 60px;
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width :751px) and (max-width :950px) {
+
+    body {
+        height: 1270px;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+
+    .accordion img {
+        margin-left: 0px;
+    }
+
+    .accordion .img-2 {
+        position: absolute;
+        left: -70px;
+        top: 190px;
+        width: 40%;
+        height: auto;
+    }
+
+    .accordion h1 {
+        font-size: 35px;
+        color: blueviolet;
+        margin-top: 60px;
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
